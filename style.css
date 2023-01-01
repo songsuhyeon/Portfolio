@@ -105,7 +105,15 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  background-color: var(--color-begie);
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  transition: all var(--animation-duration) ease-in-out;
+}
+
+#navbar.navbar--dark {
+    background-color: var(--color-begie);
+    padding: 8px;
 }
 
 .navbar__logo {
@@ -148,6 +156,7 @@ p {
 #home {
     background: url('/imgs/background.jpg') center/cover no-repeat;
     padding: 40px;
+    padding-top: 120px;
     text-align: center;
 }
 
@@ -460,7 +469,7 @@ p {
 
 .contact__links i:hover {
     transform: scale(1.1);
-    color: #9b6948;
+    color: #AD9F8E;
     transition: all var(--animation-duration) ease;
 }
 

@@ -53,10 +53,10 @@
         width="300px"
         />
         <h1 class="home__title">
-          Hello, <br />
+          Hello,<br />
           I'm SuHyeon Song.
         </h1>
-        <h2 class="home__description">I want to be a Software Engineer.</h2>
+        <h2 class="home__description">I want to be a Front-End Engineer.</h2>
         <button class="home__contact" data-link="#contact">Contact Me</button>
       </div>
     </section>
@@ -65,14 +65,17 @@
     <section id="about" class="section section__containser">
       <div class="section__container">
         <h1>About Me</h1>
-        <p>나를 설명하는 문장 작성하기</p>
+        <p>커뮤니케이션 능력을 갖추어 원활한 협업을 이끌어내는 프론트엔드 개발자입니다.</p>
         <div class="about__majors">
           <div class="major">
             <div class="major__icon">
               <i class="fa-brands fa-html5"></i>
             </div>
             <h3 class="major__title"><b>Front-end</b></h3>
-            <div class="major_description">HTML, CSS, JavaScript, <br />React, Vue, Web APIs</div>
+            <div class="major_description">
+              TypeScript, JavaScript, HTML, CSS<br />
+              React, Next, Vue</div>
+              Tailwind, Styled Component, Web APIs <br />
           </div>
 
           <div class="major">
@@ -132,13 +135,13 @@
       <div class="section__container">
         <h1>Skills</h1>
         <h2>Skills & Attributes</h2>
-        <p>Sills 설명 문장 작성하기</p>
+        <p>React, Next.js 등의 프레임워크를 활용하여 유연하고 효율적인 웹 애플리케이션을 구축합니다</p>
         <div class="skillset">
           <div class="skillset__left">
             <h3 class="skillset__title">Skills</h3>
             <div class="skill">
               <div class="skill__description">
-                <span>HTML</span>
+                <span>HTML / CSS</span>
                 <span>99%</span>
               </div>
               <div class="skill__bar">
@@ -165,6 +168,15 @@
             </div>
             <div class="skill">
               <div class="skill__description">
+                <span>TypeScript</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
                 <span>React</span>
                 <span>30%</span>
               </div>
@@ -174,7 +186,7 @@
             </div>
             <div class="skill">
               <div class="skill__description">
-                <span>Vue</span>
+                <span>Next.js</span>
                 <span>70%</span>
               </div>
               <div class="skill__bar">
@@ -198,6 +210,7 @@
               <ul class="etc__list">
                 <li><span>Git</span></li>
                 <li><span>Git Lab</span></li>
+                <li><span>Jira</span></li>
               </ul>
             </div>
           </div>
@@ -211,69 +224,61 @@
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-          <button class="category__btn selected" data-filter="*">All <span class="category__count">8</span></button>
-          <button class="category__btn" data-filter="front-end">Front-end <span class="category__count">3</span></button>
-          <button class="category__btn" data-filter="back-end">Back-end <span class="category__count">3</span></button>
-          <button class="category__btn" data-filter="embedded">Embedded <span class="category__count">2</span></button>
+          <button class="category__btn selected" data-filter="*">
+            All <span class="category__count">8</span>
+          </button>
+          <button class="category__btn" data-filter="front-end">
+            Front-end <span class="category__count">3</span>
+          </button>
+          <button class="category__btn" data-filter="back-end">
+            Back-end <span class="category__count">0</span>
+          </button>
+          <button class="category__btn" data-filter="mobile">
+            Mobile <span class="category__count">0</span>
+          </button>
         </div>
 
         <div class="work__projects">
-          <a href="https://github.com/songsuhyeon" class="project" target="blank" data-type="front-end">
-            <img src="imgs/projects/project1.png" alt="Youtube" class="project__img" />
+          <a href="https://github.com/songsuhyeon/Storyge" class="project" target="blank" data-type="front-end">
+            <img
+              src="imgs/projects/Storyge.gif"
+              alt="Storyge Logo"
+              class="project__img"
+            />
             <div class="project__description">
-              <h3>Youtube Site</h3>
-              <span>Clone coding with HTML and CSS</span>
+              <h3>Storyge</h3>
+              <span>📚 감정 기록하세요. 당신의 감정을 분석해드립니다.</span>
             </div>
           </a>
-          <a href="https://github.com/songsuhyeon" class="project" target="blank"  data-type="back-end">
-            <img src="imgs/projects/project2.png" alt="Youtube" class="project__img" />
+          <a
+            href="https://github.com/songsuhyeon/Retro-SNS-XYZ"
+            class="project"
+            data-type="front-end"
+            target="blank"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/XYZlogo.svg"
+              alt="XYZ Logo"
+            />
             <div class="project__description">
-              <h3>Youtube Site</h3>
-              <span>Clone coding with HTML and CSS</span>
+              <h3>XYZ</h3>
+              <span>🧸 XYZ세대들을 위한 레트로 SNS</span>
             </div>
           </a>
-          <a href="https://github.com/songsuhyeon" class="project" target="blank"  data-type="back-end">
-            <img src="imgs/projects/project3.png" alt="Youtube" class="project__img" />
+          <a
+            href="https://github.com/songsuhyeon/MoeMoeNyang"
+            class="project"
+            data-type="front-end"
+            target="blank"
+          >
+            <img class="project__img" src="imgs/projects/MoeMoeNyangLogo.png" alt="MoeMoeNyang Logo" />
             <div class="project__description">
-              <h3>Youtube Site</h3>
-              <span>Clone coding with HTML and CSS</span>
+              <h3>MoeMoeNyang</h3>
+              <span>😻 AI 길냥이 케어 서비스 모에모에냥</span>
             </div>
           </a>
-          <a href="https://github.com/songsuhyeon" class="project" target="blank"  data-type="embedded">
-            <img src="imgs/projects/project4.png" alt="Youtube" class="project__img" />
-            <div class="project__description">
-              <h3>Youtube Site</h3>
-              <span>Clone coding with HTML and CSS</span>
-            </div>
-          </a>
-          <a href="https://github.com/songsuhyeon" class="project" target="blank"  data-type="front-end">
-            <img src="imgs/projects/project5.png" alt="Youtube" class="project__img" />
-            <div class="project__description">
-              <h3>Youtube Site</h3>
-              <span>Clone coding with HTML and CSS</span>
-            </div>
-          </a>
-          <a href="https://github.com/songsuhyeon" class="project" target="blank"  data-type="front-end">
-            <img src="imgs/projects/project6.png" alt="Youtube" class="project__img" />
-            <div class="project__description">
-              <h3>Youtube Site</h3>
-              <span>Clone coding with HTML and CSS</span>
-            </div>
-          </a>
-          <a href="https://github.com/songsuhyeon" class="project" target="blank"  data-type="front-end">
-            <img src="imgs/projects/project7.png" alt="Youtube" class="project__img" />
-            <div class="project__description">
-              <h3>Youtube Site</h3>
-              <span>Clone coding with HTML and CSS</span>
-            </div>
-          </a>
-          <a href="https://github.com/songsuhyeon" class="project" target="blank" data-type="front-end">
-            <img src="imgs/projects/project8.png" alt="Youtube" class="project__img" />
-            <div class="project__description">
-              <h3>Youtube Site</h3>
-              <span>Clone coding with HTML and CSS</span>
-            </div>
-          </a>
+          
         </div>
       </div>
     </section>
@@ -281,17 +286,14 @@
     <!-- Testimonials -->
     <section id="testimonials" class="section">
       <div class="section__container">
-        <h1>Testimoinals</h1>
+        <h1>Who am I?</h1>
         <h3>See what they say about me</h3>
         <div class="testimonials">
           <div class="testimonial">
             <img src="imgs/people1.jpg" alt="People" class="testimonial__avatar" />
             <div class="testimonial__speech-bubble">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fuga libero nulla
-                eveniet aperiam laborum, quis provident quibusdam officiis reprehenderit, placeat
-                neque perspiciatis vero explicabo tempora, dignissimos accusantium inventore
-                ducimus!
+                다양한 프론트엔드 기술과 도구를 활용하여 사용자 인터페이스(UI)를 개발하고 최적화하는 업무를 수행합니다. HTML, CSS, JavaScript를 비롯한 웹 기술에 능숙하며, React, Vue.js 등의 프레임워크를 활용하여 유연하고 효율적인 웹 애플리케이션을 구축합니다. 또한 웹 표준과 웹 접근성에 대한 이해와 경험이 있어, 사용자들에게 편리하고 접근 가능한 웹 경험을 제공할 수 있습니다. 새로운 기술과 트렌드를 학습하고 적용하는 것을 즐기며, 팀과의 협업을 통해 효과적인 솔루션을 찾는 능력을 갖추고 있습니다.
               </p>
               <p class="name"><a href="#">SuHyeon</a></p>
             </div>
@@ -300,10 +302,7 @@
           <div class="testimonial">
             <div class="testimonial__speech-bubble">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fuga libero nulla
-                eveniet aperiam laborum, quis provident quibusdam officiis reprehenderit, placeat
-                neque perspiciatis vero explicabo tempora, dignissimos accusantium inventore
-                ducimus!
+                프론트엔드 개발 분야에서 다양한 프로젝트를 수행한 경험이 있습니다. 사용자 요구사항을 분석하고 UI/UX 디자인을 구축하는 과정에서 설계 원칙과 최신 트렌드를 적용하여 직관적이고 세련된 사용자 인터페이스를 제공합니다. 또한 웹 성능 최적화와 반응형 웹 디자인을 통해 다양한 디바이스에서 일관된 경험을 제공하는데 주력하고 있습니다. 협업과 커뮤니케이션 능력을 갖추어 디자이너, 백엔드 개발자 등 다양한 팀원들과 원활한 협업을 이끌어내고, 프로젝트의 성공에 기여합니다. 지속적인 학습과 적극적인 문제 해결 태도를 가지고 있으며, 프론트엔드 개발 분야의 동향을 주시하며 성장하고 있습니다.
               </p>
               <p class="name"><a href="#">SuHyeon</a></p>
             </div>

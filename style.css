@@ -166,9 +166,12 @@ p {
     border: 2px solid var(--color-light-begie);
 }
 
-.home__title,
+.home__title {
+    color: var(--color-light-grey);
+}
 .home__description {
     color: var(--color-light-grey);
+    font-size: var(--font-medium);
 }
 
 .home__contact {
@@ -369,7 +372,7 @@ p {
     background-color: var(--color-white);
 }
 
-.projcet.invisible {
+.project.invisible {
     display: none;
 }
 

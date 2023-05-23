@@ -153,7 +153,7 @@ p {
 
 /* Home */
 #home {
-    background: url('imgs/background.jpg') center/cover no-repeat;
+    background: url('/Portfolio/imgs/background.jpg') center/cover no-repeat;
     padding: 40px;
     padding-top: 120px;
     text-align: center;

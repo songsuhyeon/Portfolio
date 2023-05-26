@@ -43,15 +43,17 @@
     </nav>
 
     <!-- Home -->
-    <section id="Storyge_home">
+    <section id="MoeMoeNyang_home">
       <div class="home__container">
         <img
-        src="imgs/projects/Storyge/storyge-logo.png"
+        src="imgs/projects/MoeMoeNyang/MoeMoeNyangLogo.png"
         alt="XYZ photo"
         class="home__logo"
+        height="310px"
+        width="300px"
         />
         <h1 class="home__title">
-          Diary Serviece - Storyge
+          마음을 녹일 길냥이 서비스
         </h1>
         <button class="home__contact" data-link="#contact">Git hub</button>
       </div>
@@ -62,12 +64,11 @@
       <div class="section__container">
         <h1>서비스 소개</h1>
         
-        <h3>📅 프로젝트 기간 : 2023.01 ~ 2023.02</h3>
+        <h3>📅 프로젝트 기간 : 2023.02 ~ 2023.04</h3>
         <br />
-        <p>내가 어떤 감정 상태로 살고 있는지 자세히 모르는 경우가 많습니다. <br/>
-          일기 작성 시 하루 동안 있었던 일들을 한번에 정리하며 작성 부담을 덜기 위한 서비스 !<br/>
-          Storyge는 감정과 일상을 순간 순간마다 정리할 수 있도록 도와줍니다.<br/>
-          본인의 감정을 대놓고 드러내기엔 부담스럽지만 알아줬으면 하는 마음이 있는 경우 사용해보세요.</p>
+        <p>모에모에냥 프로젝트는 대학교 캠퍼스 별 길냥이 관리 서비스 입니다.<br />
+          모에(燃え)란 어느 대상을 좋아하고, 대단한 흥미를 가지는 행위 및 그 상태를 의미합니다.<br />
+          도시 생태계 일원인 길고양이들이 사랑받고 함께 공존하는 사회를 만들고 싶어 서비스를 기획했습니다.</p>
         <div class="about__majors">
           <div class="major">
             <div class="major__icon">
@@ -75,8 +76,8 @@
             </div>
             <h3 class="major__title"><b>Front-end</b></h3>
             <div class="major_description">
-              React.js, JavaScript<br />
-              Stlyed Component, SSE, Web APIs</div>
+              React.js, TypeScript, JavaScript<br />
+              Redux, Tatilwind, Web APIs</div>
           </div>
 
           <div class="major">
@@ -96,7 +97,7 @@
             </div>
             <h3 class="major__title"><b>Server</b></h3>
             <div class="major_description">
-              Amazon S3, AWS EC2<br />
+              Amazon EC2, Redis <br />
               Docker, Jenkins, Nginx<br />
             </div>
           </div>
@@ -110,7 +111,7 @@
         <h1>Architecture</h1>
         <p>React를 활용하여 유연하고 효율적인 웹 애플리케이션을 구축합니다</p>
           <img
-          src="imgs/projects/Storyge/Storyge-architecture.png"
+          src="imgs/projects/MoeMoeNyang/MoeMoeNyang-Architecture.png"
           alt="Storyge photo"
           class="architecture"
           height="auto"
@@ -167,7 +168,7 @@
             </div>
           </a>
           <a
-            href="https://github.com/songsuhyeon/MoeMoeNyang"
+            href="MoeMoeNyangdetail.html"
             class="project"
             data-type="front-end"
             target="blank"
@@ -187,14 +188,14 @@
     <section id="testimonials" class="section">
       <div class="section__container">
         <h1>Review</h1>
-        <h2>What's Storyge?</h2>
+        <h2>What's MoeMeoNyang?</h2>
         <div class="testimonials">
           <div class="testimonial">
             <img src="imgs/projects/XYZ/profile3.jpg" alt="People" class="testimonial__avatar" />
             <div class="testimonial__speech-bubble">
               <h3>🧸 프로젝트 성과</h3>
               <p>
-                React를 사용해 컴포넌트 기반 아키텍처를 활용하여 코드의 재사용성과 유지보수성을 향상시켰습니다. 각각의 독립적인 컴포넌트로 UI를 구성함으로써 개발 작업을 단순화하고 효율적으로 관리할 수 있었습니다. SSE를 사용해 실시간으로 서버로부터 데이터를 수신하여 사용자에게 즉각적인 알림을 제공할 수 있었습니다.SSE는 웹 소켓과 비교해 상대적으로 간단한 프로토콜이기 때문에 구현과 유지보수가 용이했습니다. 이로써 프로젝트 개발에 소요되는 시간과 리소스를 줄일 수 있었습니다.
+                Redux를 통해 애플리케이션의 전역 상태 관리를 효과적으로 구현할 수 있었습니다. 컴포넌트 기반 아키텍처를 활용하여 코드의 재사용성과 유지보수성을 향상시켰습니다.
               </p>
               <p class="name"><a href="#">SuHyeon</a></p>
             </div>
@@ -204,7 +205,7 @@
             <div class="testimonial__speech-bubble">
               <h3>🧸 프로젝트 리뷰</h3>
               <p>
-                초기 학습 부족으로 인하여 같은 내용의 코드&비동기 통신 또는 로그인, 회원가입 유효성 검사)를 여러번 작성하여 개발 속도 저하와 코드 관리에 대한 문제가 발생했습니다. 이러한 문제를 해결하기 위해 공통적인 부분이 발생할 여지가 있는 경우 함수로 따로 구현하여 모듈화가 필요하다는 것을 학습했습니다.
+                UI/UX 라이브러리 구현 및 개선을 위해 노력했습니다. 사용자 인터랙션을 위해 가로, 세로 무한 스크롤을 적용했습니다. 해당 프로젝트를 진행하며 Restful API에 대한 이해와 경험을 했습니다. 현재 프로젝트 유지 보수를 위해 React TDD에 대해 학습하고 있습니다.
               </p>
               <p class="name"><a href="#">SuHyeon</a></p>
             </div>

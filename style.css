@@ -527,6 +527,14 @@
     text-align: center;
 }
 
+/* Storyge */
+#Storyge_home {
+    background: url('/Portfolio/imgs/projects/Storyge/Storyge-back.png') center/cover no-repeat;
+    padding: 40px;
+    padding-top: 120px;
+    text-align: center;
+}
+
   /* For below 768px screen width */
   @media screen and (max-width: 768px) {
     :root {

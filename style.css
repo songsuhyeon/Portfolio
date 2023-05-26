@@ -512,6 +512,18 @@ p {
     pointer-events: auto; 
 }
 
+/* architecture */
+.architecture {
+    margin: 20px;
+}
+
+/* XYZ */
+#XYZ_home {
+    background: url('/imgs/projects/XYZ/XZY-back.png') center/cover no-repeat;
+    padding: 40px;
+    padding-top: 120px;
+    text-align: center;
+}
 
 /* For below 768px screen width */
 @media screen and (max-width: 768px) {
